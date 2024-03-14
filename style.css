@@ -1,0 +1,74 @@
+@import "./bootstrap.min.css";
+
+nav {
+    height: 80px;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+#intro {
+    background-color: #cd8f5f29;
+}
+
+#intro button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #5454f0;
+    color: #fff;
+}
+
+#intro button:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1220px) {
+    #intro img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #intro img {
+        width: 100%;
+    }
+}
+
+#details h3:hover {
+    text-decoration: underline;
+    color: #5454f0;
+}
+
+#details {
+    background-color: #ECF8F9;
+}
+
+#career {
+    background-color: #ECF8F9;
+}
+
+#career .card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.3s ease;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #5454f0;
+    color: #fff;
+}
+
+
